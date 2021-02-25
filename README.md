@@ -3,7 +3,8 @@
 
 ```import {FirebaseConfigInterface} from "./interfaces/FirebaseConfigInterface";```
 
-```export const firebase_config: FirebaseConfigInterface = {
+```
+export const firebase_config: FirebaseConfigInterface = {
     apiKey: apiKey,
     authDomain: authDomain,
     projectId: projectId,
@@ -11,4 +12,5 @@
     messagingSenderId: messagingSenderId,
     appId:appId,
     measurementId: measurementId
-}```
+}
+```
